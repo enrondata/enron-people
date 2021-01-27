@@ -5,7 +5,7 @@ import (
 )
 
 var peopleTests = []struct {
-	externalID   string
+	userName     string
 	emailAddress string
 }{
 	{"skilling-j", "jeffery.skilling@enron.com"},
@@ -20,9 +20,9 @@ func TestPeople(t *testing.T) {
 			t.Errorf("PeopleSet.GetByEmail(\"%s\") Error: user not found",
 				tt.emailAddress)
 		}
-		if tt.externalID != try.ExternalID {
+		if tt.userName != try.UserName {
 			t.Errorf("PeopleSet.GetByEmail(\"%s\") Error: want [%s], got [%s]",
-				tt.emailAddress, tt.externalID, try.ExternalID)
+				tt.emailAddress, tt.userName, try.UserName)
 		}
 	}
 }
