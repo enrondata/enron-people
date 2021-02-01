@@ -25,7 +25,7 @@ This is a package containing metadata on the custodians and people referenced in
 * Enron Email Address
 * Custodian Username associated with FERC email distribution
 
-The data is presented in the [System for Cross-domain Identity Management (SCIM) standard format](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management).
+The data is presented in the [System for Cross-domain Identity Management (SCIM) standard format](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management). User objects follow the [SCIM Core Schema](https://tools.ietf.org/html/rfc7643).
 
 ## Usage
 
