@@ -42,3 +42,8 @@ This package is designed to consolidate the information in several data files an
 * [edo_enron-custodians-data.html](https://github.com/enrondata/enrondata/blob/master/data/misc/edo_enron-custodians-data.html)
 * [edo_enron-custodians-data.json](https://github.com/enrondata/enrondata/blob/master/data/misc/edo_enron-custodians-data.json)
 * [edo_enron-custodians-data.tsv](https://github.com/enrondata/enrondata/blob/master/data/misc/edo_enron-custodians-data.tsv)
+
+## Links
+
+* [Discussion Tracking in Enron Email using PARAFAC, 2007-04-28](https://www.osti.gov/servlets/purl/1147937)
+* [Temporal Text Analysis of Enron Email using Non-negative PARAFAC, 2006-11-01](https://www.osti.gov/servlets/purl/1724662)
