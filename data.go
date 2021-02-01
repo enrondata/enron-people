@@ -150,6 +150,63 @@ var people = []scim.User{
 		UserType: scim.UserTypeEmployee},
 	{
 		Active:      true,
+		DisplayName: "Sally Beck",
+		Emails: []scim.Item{{
+			Value: "sally.beck@enron.com",
+			Type:  TypeWork, Primary: true}},
+		ExternalID: "x500:/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sbeck",
+		Groups:     []scim.Group{{Display: "Enron Corp."}},
+		Locale:     "en-US",
+		Name: scim.Name{
+			GivenName:       "Sally",
+			FamilyName:      "Beck",
+			HonorificSuffix: ""},
+		NickName:   "",
+		ProfileURL: "https://relationshipscience.com/person/sally-beck-111369206",
+		Timezone:   timezone.TimezoneAmericaLosAngeles,
+		Title:      "Managing Director, Enron Corp; COO, Enron Networks",
+		UserName:   "beck-s",
+		UserType:   scim.UserTypeEmployee},
+	{
+		Active:      true,
+		DisplayName: "Robert Benson",
+		Emails: []scim.Item{{
+			Value: "robert.benson@enron.com",
+			Type:  TypeWork, Primary: true}},
+		ExternalID: "x500:/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rbenson",
+		Groups:     []scim.Group{{Display: "Enron Corp."}},
+		Locale:     "en-US",
+		Name: scim.Name{
+			GivenName:       "Robert",
+			FamilyName:      "Benson",
+			HonorificSuffix: ""},
+		NickName:   "",
+		ProfileURL: "https://www.govinfo.gov/content/pkg/USCOURTS-txsb-4_03-ap-03721/pdf/USCOURTS-txsb-4_03-ap-03721-0.pdf",
+		Timezone:   timezone.TimezoneAmericaLosAngeles,
+		Title:      "Director, East Power Trading, Enron Trading Group, Enron NA",
+		UserName:   "benson-r",
+		UserType:   scim.UserTypeEmployee},
+	{
+		Active:      true,
+		DisplayName: "Lynn Blair",
+		Emails: []scim.Item{{
+			Value: "lynn.blair@enron.com",
+			Type:  TypeWork, Primary: true}},
+		ExternalID: "x500:/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lblair",
+		Groups:     []scim.Group{{Display: "Enron Corp."}},
+		Locale:     "en-US",
+		Name: scim.Name{
+			GivenName:       "Lynn",
+			FamilyName:      "Blair",
+			HonorificSuffix: ""},
+		NickName:   "",
+		ProfileURL: "http://www.enron-mail.com/email/blair-l/meetings___general/6_Enron_Transportation_Services_travelers.html",
+		Timezone:   timezone.TimezoneAmericaLosAngeles,
+		Title:      "Director, Market Services, ETS",
+		UserName:   "blair-l",
+		UserType:   scim.UserTypeEmployee},
+	{
+		Active:      true,
 		DisplayName: "David Delainey",
 		Emails: []scim.Item{
 			{
