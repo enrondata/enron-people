@@ -19,9 +19,16 @@ var people = []scim.User{
 	{
 		Active:      true,
 		DisplayName: "Phillip Allen",
-		Emails: []scim.Item{{
-			Value: "phillip.allen@enron.com",
-			Type:  TypeWork, Primary: true}},
+		Emails: []scim.Item{
+			{
+				Value: "phillip.allen@enron.com",
+				Type:  TypeWork, Primary: true},
+			{
+				Value: "pallen@enron.com",
+				Type:  TypeWork, Primary: false},
+			{
+				Value: "k..allen@enron.com",
+				Type:  TypeWork, Primary: false}},
 		ExternalID: "x500:/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen",
 		Groups:     []scim.Group{{Display: "Enron Corp."}},
 		Locale:     "en-US",
@@ -31,6 +38,7 @@ var people = []scim.User{
 			MiddleName: "K.",
 			FamilyName: "Allen"},
 		Timezone: timezone.TimezoneAmericaChicago,
+		Title:    "VP West Desk Gas Trading",
 		UserName: "allen-p",
 		UserType: scim.UserTypeEmployee},
 	{
