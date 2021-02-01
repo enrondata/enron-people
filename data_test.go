@@ -16,7 +16,7 @@ var rxSpace = regexp.MustCompile(`[\s\t]`)
 
 func TestPeople(t *testing.T) {
 	peopleSet := NewPeopleSet()
-	t.Logf("user set count [%d]", peopleSet.Count())
+	t.Logf("user set count [%d/%d]", peopleSet.Count(), len(UserNamesCalo()))
 	for _, tt := range peopleTests {
 		try := peopleSet.GetByEmail(tt.emailAddress)
 		if try == nil {
