@@ -1,8 +1,8 @@
 package enronpeople
 
 import (
-	"github.com/grokify/oauth2more/scim"
-	"github.com/grokify/simplego/time/timezone"
+	"github.com/grokify/goauth/scim"
+	"github.com/grokify/mogo/time/timezone"
 )
 
 const TypeWork = "work"

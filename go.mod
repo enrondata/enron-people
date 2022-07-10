@@ -3,6 +3,6 @@ module github.com/enrondata/enron-people
 go 1.15
 
 require (
-	github.com/grokify/oauth2more v0.4.2
-	github.com/grokify/simplego v0.0.6
+	github.com/grokify/goauth v0.15.2
+	github.com/grokify/mogo v0.39.8
 )
