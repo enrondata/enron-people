@@ -1,7 +1,6 @@
 package enronpeople
 
 import (
-	"regexp"
 	"testing"
 )
 
@@ -11,8 +10,6 @@ var peopleTests = []struct {
 }{
 	{"skilling-j", "jeffery.skilling@enron.com"},
 }
-
-var rxSpace = regexp.MustCompile(`[\s\t]`)
 
 func TestPeople(t *testing.T) {
 	peopleSet := NewPeopleSet()
