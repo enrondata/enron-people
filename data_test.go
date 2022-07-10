@@ -20,10 +20,8 @@ func TestPeople(t *testing.T) {
 	for _, tt := range peopleTests {
 		try := peopleSet.GetByEmail(tt.emailAddress)
 		if try == nil {
-			t.Errorf("PeopleSet.GetByEmail(\"%s\") Error: user not found",
-				tt.emailAddress)
-		}
-		if tt.userName != try.UserName {
+			t.Errorf("PeopleSet.GetByEmail(\"%s\") Error: user not found", tt.emailAddress)
+		} else if tt.userName != try.UserName {
 			t.Errorf("PeopleSet.GetByEmail(\"%s\") Error: want [%s], got [%s]",
 				tt.emailAddress, tt.userName, try.UserName)
 		}
