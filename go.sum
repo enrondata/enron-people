@@ -1,10 +1,10 @@
 github.com/grokify/goauth v0.16.5 h1:NiFBWnFQY/3Ol+oTFUrPSuP5bs4YmJrQD8hsZRViT1E=
 github.com/grokify/goauth v0.16.5/go.mod h1:CY+vTrG+sBJXwC4D1c8ruOaD4Mr+dQMr/EY764oO80w=
-github.com/grokify/mogo v0.41.1 h1:ZZBi4Pcap5jOygVrUHE0R6qniEwjl+7YlX8pTjUPq2o=
-github.com/grokify/mogo v0.41.1/go.mod h1:V3nkl9GT44dyFZJYetSfFMj/4hqRMBCtoWUXDC6yVJw=
+github.com/grokify/mogo v0.41.2 h1:m1jtsWhp5a6ZTJ0DrwIZerEV0lVPBrIyIVRp8PIW8wk=
+github.com/grokify/mogo v0.41.2/go.mod h1:F2BzVq/EKWBOknixSZhN/V3n2YTxfMuhLwwLRXVblw0=
 github.com/huandu/xstrings v1.3.3 h1:/Gcsuc1x8JVbJ9/rlye4xZnVAbEkGauT8lbebqcQws4=
 github.com/huandu/xstrings v1.3.3/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
 github.com/tkuchiki/go-timezone v0.2.2 h1:MdHR65KwgVTwWFQrota4SKzc4L5EfuH5SdZZGtk/P2Q=
 github.com/tkuchiki/go-timezone v0.2.2/go.mod h1:oFweWxYl35C/s7HMVZXiA19Jr9Y0qJHMaG/J2TES4LY=
-golang.org/x/exp v0.0.0-20221111204811-129d8d6c17ab h1:1S7USr8/C0Sgk4egxq4zZ07zYt2Xh1IiFp8hUMXH/us=
-golang.org/x/exp v0.0.0-20221111204811-129d8d6c17ab/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=
+golang.org/x/exp v0.0.0-20221114191408-850992195362 h1:NoHlPRbyl1VFI6FjwHtPQCN7wAMXI6cKcqrmXhOOfBQ=
+golang.org/x/exp v0.0.0-20221114191408-850992195362/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=
