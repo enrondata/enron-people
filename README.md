@@ -5,7 +5,7 @@
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
 
- [build-status-svg]: https://github.com/enrondata/enron-people/workflows/build/badge.svg?branch=master
+ [build-status-svg]: https://github.com/enrondata/enron-people/workflows/test/badge.svg?branch=master
  [build-status-url]: https://github.com/enrondata/enron-people/actions
  [goreport-svg]: https://goreportcard.com/badge/github.com/enrondata/enron-people
  [goreport-url]: https://goreportcard.com/report/github.com/enrondata/enron-people
@@ -47,3 +47,4 @@ This package is designed to consolidate the information in several data files an
 
 * [Discussion Tracking in Enron Email using PARAFAC, 2007-04-28](https://www.osti.gov/servlets/purl/1147937)
 * [Temporal Text Analysis of Enron Email using Non-negative PARAFAC, 2006-11-01](https://www.osti.gov/servlets/purl/1724662)
+
