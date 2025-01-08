@@ -1,10 +1,10 @@
 github.com/grokify/goauth v0.22.4 h1:46O1BSomTUENwBRt4TiD7qcnzAqP0qP9K6akOXnoCQ4=
 github.com/grokify/goauth v0.22.4/go.mod h1:eITfNWR7hcLmRz+Hf5WWR3e4zwx30UeQFmQ/7FFR9kg=
-github.com/grokify/mogo v0.65.6 h1:ToL6pl/WRb4p+pB9iObm/HK1jLM/uDIaLCknQOJg7q8=
-github.com/grokify/mogo v0.65.6/go.mod h1:q0uXqdhW6F4VJZ5iTJqi34GMewjZr6Q48ZbAigBYfpQ=
+github.com/grokify/mogo v0.67.2 h1:gzWY+OXHgNRz4mXEhYb3ffR6A43/rKtTnI7H6K/qSww=
+github.com/grokify/mogo v0.67.2/go.mod h1:Hlk3Vk3w59qaHls9VANUchW8FdfWQCqrs2pI4IFtpqA=
 github.com/huandu/xstrings v1.5.0 h1:2ag3IFq9ZDANvthTwTiqSSZLjDc+BedvHPAp5tJy2TI=
 github.com/huandu/xstrings v1.5.0/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
-golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f h1:XdNn9LlyWAhLVp6P/i8QYBW+hlyhrhei9uErw2B5GJo=
-golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f/go.mod h1:D5SMRVC3C2/4+F/DB1wZsLRnSNimn2Sp/NPsCrsv8ak=
-golang.org/x/text v0.20.0 h1:gK/Kv2otX8gz+wn7Rmb3vT96ZwuoxnQlY+HlJVj7Qug=
-golang.org/x/text v0.20.0/go.mod h1:D4IsuqiFMhST5bX19pQ9ikHC2GsaKyk/oF+pn3ducp4=
+golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 h1:yqrTHse8TCMW1M1ZCP+VAR/l0kKxwaAIqN/il7x4voA=
+golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8/go.mod h1:tujkw807nyEEAamNbDrEGzRav+ilXA7PCRAd6xsmwiU=
+golang.org/x/text v0.21.0 h1:zyQAAkrwaneQ066sspRyJaG9VNi/YJ1NfzcGB3hZ/qo=
+golang.org/x/text v0.21.0/go.mod h1:4IBbMaMmOPCJ8SecivzSH54+73PCFmPWxNTLm+vZkEQ=
