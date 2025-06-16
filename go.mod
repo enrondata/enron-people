@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/grokify/goauth v0.23.14
-	github.com/grokify/mogo v0.70.5
+	github.com/grokify/mogo v0.70.8
 )
 
 require (
