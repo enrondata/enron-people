@@ -1,12 +1,14 @@
 # Enron People
-
 [![Build Status][build-status-svg]][build-status-url]
+[![Lint Status][lint-status-svg]][lint-status-url]
 [![Go Report Card][goreport-svg]][goreport-url]
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
 
- [build-status-svg]: https://github.com/enrondata/enron-people/workflows/test/badge.svg?branch=master
- [build-status-url]: https://github.com/enrondata/enron-people/actions
+ [build-status-svg]: https://github.com/enrondata/enron-people/actions/workflows/ci.yaml/badge.svg?branch=master
+ [build-status-url]: https://github.com/enrondata/enron-people/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/enrondata/enron-people/actions/workflows/lint.yaml/badge.svg?branch=master
+ [lint-status-url]: https://github.com/enrondata/enron-people/actions/workflows/lint.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/enrondata/enron-people
  [goreport-url]: https://goreportcard.com/report/github.com/enrondata/enron-people
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/enrondata/enron-people
