@@ -52,8 +52,8 @@ This repository contains structured data about Enron personnel:
 
 | File | Description | Count |
 |------|-------------|-------|
-| [data/edo_enron-custodians-data.json](data/edo_enron-custodians-data.json) | Custodians with maildir archives | ~150 |
-| data/edo_enron-employees-data.json | All employees found in emails | ~30,000 (planned) |
+| [data/edo_enron-custodians-data.json](data/edo_enron-custodians-data.json) | Custodians with maildir archives | 150 |
+| [data/edo_enron-employees-data.json](data/edo_enron-employees-data.json) | All people found in emails | 60,201 |
 
 ### Custodians
 
@@ -61,7 +61,10 @@ Custodians are individuals whose email archives are included in the FERC Enron E
 
 ### Employees
 
-The employees file (planned) will contain all unique individuals found in email headers (From, To, Cc, Bcc) across all custodian mailboxes.
+The employees file contains all unique individuals found in email headers (From, To, Cc, Bcc) across all 150 custodian mailboxes (517,401 emails). This includes:
+
+- ~30,800 Enron employees (@enron.com)
+- ~29,400 external contacts (other domains)
 
 ## Data Format
 
