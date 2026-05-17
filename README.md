@@ -37,9 +37,43 @@ This is designed to be used with the FERC Enron Email Dataset as distributed in 
 * EDRM Distribution
 * FERC Distribution (original)
 
-## Source Data
+## Data Files
 
-This package is designed to consolidate the information in several data files and eventually output replacements to those files:
+This repository contains structured data about Enron personnel:
+
+| File | Description | Count |
+|------|-------------|-------|
+| [data/edo_enron-custodians-data.json](data/edo_enron-custodians-data.json) | Custodians with maildir archives | ~150 |
+| data/edo_enron-employees-data.json | All employees found in emails | ~30,000 (planned) |
+
+### Custodians
+
+Custodians are individuals whose email archives are included in the FERC Enron Email Dataset. Each custodian has a corresponding maildir folder in the CMU distribution.
+
+### Employees
+
+The employees file (planned) will contain all unique individuals found in email headers (From, To, Cc, Bcc) across all custodian mailboxes.
+
+## Data Format
+
+Data files use [Schema.org Person](https://schema.org/Person) format:
+
+```json
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "alternateName": "allen-p",
+  "givenName": "Philip",
+  "familyName": "Allen",
+  "email": "philip.allen@enron.com",
+  "jobTitle": "VP West Desk Gas Trading",
+  "maildirs": ["allen-p"]
+}
+```
+
+## Historical Source Data
+
+This package consolidates information from several original data files:
 
 * [edo_enron-custodians-data.html](https://github.com/enrondata/enrondata/blob/master/data/misc/edo_enron-custodians-data.html)
 * [edo_enron-custodians-data.json](https://github.com/enrondata/enrondata/blob/master/data/misc/edo_enron-custodians-data.json)
