@@ -247,9 +247,13 @@ var people = []scim.User{
 	{
 		Active:      true,
 		DisplayName: "Kenneth Lee Lay",
-		Emails: []scim.Item{{
-			Value: "kenneth.lay@enron.com",
-			Type:  TypeWork, Primary: true}},
+		Emails: []scim.Item{
+			{Value: "kenneth.lay@enron.com", Type: TypeWork, Primary: true},
+			{Value: "ken.lay@enron.com", Type: TypeWork, Primary: false},
+			{Value: "klay@enron.com", Type: TypeWork, Primary: false},
+			{Value: "k.lay@enron.com", Type: TypeWork, Primary: false},
+			{Value: "lay@enron.com", Type: TypeWork, Primary: false},
+		},
 		ExternalID: "x500:/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Klay",
 		Groups:     []scim.Group{{Display: "Enron Corp."}},
 		Locale:     "en-US",
@@ -266,9 +270,16 @@ var people = []scim.User{
 	{
 		Active:      true,
 		DisplayName: "Jeffrey Keith Skilling",
-		Emails: []scim.Item{{
-			Value: "jeffery.skilling@enron.com",
-			Type:  TypeWork, Primary: true}},
+		Emails: []scim.Item{
+			{Value: "jeff.skilling@enron.com", Type: TypeWork, Primary: true},
+			{Value: "jeffery.skilling@enron.com", Type: TypeWork, Primary: false},
+			{Value: "jeffrey.skilling@enron.com", Type: TypeWork, Primary: false},
+			{Value: "jskilling@enron.com", Type: TypeWork, Primary: false},
+			{Value: "jskilli@enron.com", Type: TypeWork, Primary: false},
+			{Value: "jskilli@ei.enron.com", Type: TypeWork, Primary: false},
+			{Value: "jeff_skilling@enron.com", Type: TypeWork, Primary: false},
+			{Value: "skilling@enron.com", Type: TypeWork, Primary: false},
+		},
 		ExternalID: "x500:/O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jskillin",
 		Groups:     []scim.Group{{Display: "Enron Corp."}},
 		Locale:     "en-US",
