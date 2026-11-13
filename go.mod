@@ -3,7 +3,7 @@ module github.com/enrondata/enron-people
 go 1.26.0
 
 require (
-	github.com/grokify/goauth v0.24.0
+	github.com/grokify/goauth v0.25.0
 	github.com/grokify/mogo v0.75.0
 )
 

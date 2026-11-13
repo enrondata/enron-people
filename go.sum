@@ -1,5 +1,5 @@
-github.com/grokify/goauth v0.24.0 h1:HoTGIPNRASMr5AMJfMY09jdZ96vN4HTQsL/fI8hgJPA=
-github.com/grokify/goauth v0.24.0/go.mod h1:bS5qbmBW/zTgZ8UiKHHEGVFO2P86gde/tgKXVPS8rBo=
+github.com/grokify/goauth v0.25.0 h1:YzkzfSoBPPDc3fVwldngHehhc8ZqQWrv/PyR7xMPZys=
+github.com/grokify/goauth v0.25.0/go.mod h1:9dwrmlIm92sgoE/0hnOrnhu9E0D2l701K5SLCXsj2HE=
 github.com/grokify/mogo v0.75.0 h1:YVOGu49NWvltMfG9wh3aarRD6CTF7y0llEFU+HU9drc=
 github.com/grokify/mogo v0.75.0/go.mod h1:FLksmFRywriEucyYLAGyub7C0po49Yc/nHc9q9gX67w=
 github.com/huandu/xstrings v1.6.1 h1:yYdKSd6Sjv3fNZt9BDjl1FDsPNfQEaYi19L5LzK2JKs=
